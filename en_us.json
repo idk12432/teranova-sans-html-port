@@ -1,0 +1,71 @@
+{
+    "battle.sans.dialog.box.turn0" : "* Text",
+    "battle.sans.dialog.box.turn1" : "* <rand 0123456789> 0123456789",
+    "battle.sans.dialog.box.turn2" : "* Menu <anim 2><color red>text.",
+    "battle.sans.dialog.box.turn3" : "* <anim 3>This engine is based...^1<anim 0>&* Because <C red><anim 2>yes.^1<color white>&* <anim 1>What do you think?",
+
+
+    "battle.sans.enemyspeech.intro1" : "<skippable 1><speed 0.06>terranova, ^2i'll find you...^3<clear><speed 0.06><sansbody Finger>i don't mind if you're&far away...<bomb>",
+    "battle.sans.enemyspeech.intro2" : "Serious&Intro&Text.",
+    "battle.sans.enemyspeech.introend" : "Intro End Text.",
+    "battle.sans.enemyspeech.turn.1" : "turn1_text<pause><clear>turn1_text2",
+    "battle.sans.enemyspeech.turn.2" : "turn2_text",
+    "battle.sans.enemyspeech.turn.3" : "turn3_text",
+    "battle.sans.enemyspeech.turn.4" : "turn4_text",
+    "battle.sans.enemyspeech.turn.5" : "turn5_text",
+    "battle.sans.enemyspeech.turn.6" : "turn6_text",
+    "battle.sans.enemyspeech.turn.7" : "turn7_text",
+    "battle.sans.enemyspeech.turn.8" : "turn8_text",
+    "battle.sans.enemyspeech.turn.9" : "turn9_text",
+    "battle.sans.enemyspeech.turn.10" : "turn10_text",
+    "battle.sans.enemyspeech.turn.11" : "turn11_text",
+    "battle.sans.enemyspeech.turn.12" : "turn12_text",
+    "battle.sans.enemyspeech.turn.13" : "turn13_text",
+    "battle.sans.enemyspeech.turn.14" : "turn14_text",
+    "battle.sans.enemyspeech.turn.15" : "turn15_text",
+    "battle.sans.enemyspeech.turn.16" : "turn16_text",
+
+
+    "text.asterisk" : "*",
+
+
+    "battle.dialog.act.check" : "* Check",
+    "battle.dialog.act.acttest" : "* Act test",
+    "battle.dialog.mercy.spare" : "* Spare",
+    "battle.dialog.mercy.flee" : "* Flee",
+
+    "battle.dialog.act.check.template" : "* % % ATK % DEF&",
+
+    "battle.sans.dialog.act.check.phase1" : "* The easiest enemy.^1&* Can only deal 1 damage.",
+    "battle.sans.dialog.act.check.phase2" : "{battle.sans.dialog.check.phase1}<pause><clear>* Can't keep dodging forever.^1&* Keep attacking.",
+
+    "battle.sans.dialog.act.acttest" : "* Custom Act Test.^1&<font 1><voice SansSpeak>* <anim 3>er er er",
+    
+
+    "item.default.use.ateheal" : "* You ate the %.",
+    "item.default.use.hpheal" : "* You recovered % HP!",
+    "item.default.use.hpmax" : "* Your HP was maxed out.",
+
+    "item.pie.lname" : "Butterscotch Pie",
+    "item.pie.sname" : "Pie",
+    "item.pie.use" : "{item.default.use.ateheal %}",
+
+    "item.noodles.lname" : "Instant Noodles",
+    "item.noodles.sname" : "I.Noodles",
+    "item.noodles.use" : "* They're better dry.",
+
+    "item.steak.lname" : "Face Steak",
+    "item.steak.sname" : "Steak",
+    "item.steak.use" : "{item.default.use.ateheal %}",
+
+    "item.lhero.lname" : "Legendary Hero",
+    "item.lhero.sname" : "L. Hero",
+    "item.lhero.use" : "{item.default.use.ateheal %}^1&* ATTACK increased by 4!",
+
+    "item.snowpiece.lname" : "Snowman Piece",
+    "item.snowpiece.sname" : "SnowPiece",
+    "item.snowpiece.use" : "{item.default.use.ateheal %}",
+
+
+    "gameover.text" : "<spd 0.075><textspacing 3>You cannot give&up just yet...<pause><clear>Stay determined..."
+}
